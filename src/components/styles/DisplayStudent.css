@@ -1,0 +1,39 @@
+/* DisplayStudent.css */
+
+/* Styling for the main container */
+.display-student-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Styling for the student name */
+.student-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the student age */
+.student-age {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Styling for the delete button */
+.delete-button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #f44336;
+  color: white;
+}
